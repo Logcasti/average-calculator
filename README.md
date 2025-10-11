@@ -9,7 +9,7 @@ This is an independent Python command-line utility designed to accurately calcul
 * **Continuous Execution:** Includes a main loop with a 'Start/Stop' option (E/S) for running multiple calculations without restarting the application.
 * **Clean Architecture:** Core logic is encapsulated in a dedicated function for better separation of concerns.
 
-## Technical Concepts Demonstrated (Learning Outcomes)
+## What I learned
 
 This project helped solidify understanding of essential Python principles:
 
@@ -19,10 +19,8 @@ This project helped solidify understanding of essential Python principles:
 4.  **Code Refactoring:** Improving function design by only returning necessary calculated values, leading to cleaner, more maintainable code.
 
 ##  How to Run the Program
+1.Run from Bash
 
-1.  Ensure you have Python installed on your system.
-2.  Run the script from your terminal:
-    ```bash
-    python Number Avg.py
-    ```
-3.  Follow the on-screen prompts for the number count, number inputs, and rounding choice.
+2.Run in File Explorer
+
+3.Run in an IDLE

@@ -176,10 +176,3 @@ while True:
         else:
             print("Please Type E or S")
             continue #Numbers, Words, and letters not equal to E/e or S/s do not state restart or leave  
-            
-    
-    
-'''
-Do returns for Type_Round
-If Type Round =1-3:
-print(average1) print(Average2 print(Average 1 and average 2)   '''

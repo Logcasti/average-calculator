@@ -17,6 +17,7 @@ This project helped solidify understanding of essential Python principles:
 2.  **Tuple Unpacking:** Efficiently assigning multiple returned values from a function to distinct variables (e.g., `avg, r_avg = Average_Func(...)`).
 3.  **Flow Control:** Effective use of nested `while` loops and the **`continue`** statement for reliable input prompting and continuous program flow.
 4.  **Code Refactoring:** Improving function design by only returning necessary calculated values, leading to cleaner, more maintainable code.
+5.  **Advanced Flow Control:** **Incorporated nested loops** to precisely control program flow using **`break`** and **`continue`** for guaranteed input count.
 
 ##  How to Run the Program
 1.Run from Bash

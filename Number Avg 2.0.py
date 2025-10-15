@@ -6,7 +6,7 @@ def Half_Up(Average:int,Average1:int,roundn:str)->int:
                 if Average-.5==Average1:
                     Average1=Average+.5
             elif roundn=='1':
-                Average1=round(Average,int(roundn))  #1.15=1.1    round down
+                Average1=round(Average,int(roundn))
                 if abs(Average-Average1-0.05)<Tolerance:
                     Average1=round(Average1+.1,int(roundn))
 
@@ -77,16 +77,16 @@ def Average_Func(Number_List,Loop):
 
              
                 Type_Round_out=Round_Typ()
-                if Type_Round_out==0:
-                    CounterRND=CounterRND+1
+                if Type_Round_out==1:
+                    CounterRND=1
                     Average2=Bank_Rounding(Average,Average2,roundn)
                     break
-                elif Type_Round_out==1:
-                    CounterRND=CounterRND+2
+                elif Type_Round_out==2:
+                    CounterRND=2
                     Average1=Half_Up(Average,Average1,roundn)
                     break
                 else:
-                    CounterRND=CounterRND+3
+                    CounterRND=3
                     Average1=Half_Up(Average,Average1,roundn)
                     Average2=Bank_Rounding(Average,Average2,roundn)
                     break
@@ -153,7 +153,7 @@ while True:
         print("You had "+str(Loop)+" number(s)")
         print("The average of your number:"+ str(Average_out))
         print("Half-Up Rounding: The rounded average of your number is:"+ str(Average1_out))
-    else:
+    elif CounterRND_out==3:
         print("Your number(s) were: "+ str(Number_List))
         print("You had "+str(Loop)+" number(s)")
         print("The average of your number:"+ str(Average_out))

@@ -23,7 +23,7 @@ def Average_Func(Number_List,Loop):
             break
             
         else:
-            print("Sorry, please choice from the following options:")
+            print("Sorry, please choose from the following options:")
             continue #Can not accept anything other than what is asked for
 
         
@@ -57,7 +57,7 @@ while True:
                 break
             except ValueError:
                 print("Please Type a number only:")
-                continue #Exepts any kind of number only ex: 1.5, -1, 1
+                continue #Except any kind of number only ex: 1.5, -1, 1
 
     Average_out,Average1_out=Average_Func(Number_List,Loop)
 
@@ -89,4 +89,5 @@ while True:
 
 
     
+
 

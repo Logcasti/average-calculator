@@ -43,7 +43,7 @@ def Average_Func(Number_List,Loop):
                 break
 
         else:
-            print("Sorry, please choice from the following options:")
+            print("Sorry, please choose from the following options:")
             continue #Can not accept anything other than what is asked for
     return Average, Average1
 

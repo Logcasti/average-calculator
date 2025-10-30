@@ -91,7 +91,7 @@ def Average_Func(Number_List,Loop):
                     Average2=Bank_Rounding(Average,Average2,roundn)
                     break
             else:
-                print("Sorry, please choice from the following options:")
+                print("Sorry, please choose from the following options:")
                 continue #Can not accept anything other than what is asked for
         except ValueError:
                 print('Please input one of the following choices')
@@ -176,3 +176,4 @@ while True:
         else:
             print("Please Type E or S")
             continue #Numbers, Words, and letters not equal to E/e or S/s do not state restart or leave  
+
